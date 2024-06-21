@@ -17,6 +17,7 @@ use App\Http\Controllers\StatisticController;
 */
 
 Route::get('/',[NewsController::class,'clientindex']);
+Route::get('/yuqorimaosh',[\App\Http\Controllers\Client\MaoshController::class,'index']);
 
 Route::get('/maosh', function () {
     return view('client.yuqori_maosh');
@@ -42,12 +43,12 @@ Route::get('/kasbguruhlari', function () {
 Route::get('/kelajakish', function () {
     return view('client.kelajakish');
 });
-Route::get('/yuqorimaosh', function () {
-    return view('client.progress.engyuqorimaosh');
-});
-Route::get('/konikmalar', function () {
-    return view('client.progress.savollar');
-});
+//Route::get('/yuqorimaosh', function () {
+//    return view('client.progress.engyuqorimaosh');
+//});
+//Route::get('/konikmalar', function () {
+//    return view('client.progress.savollar');
+//});
 
 Route::prefix('statistic')->group(function (){
     Route::get('/index', function () {

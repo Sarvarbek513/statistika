@@ -63,21 +63,21 @@
                     <div class="col-md-3">
                         <div style="display: flex; align-items: center;">
                             <div class="circle-button"><i class="bi bi-chevron-up"></i></div>
-                            <p style="margin: 0;">Defitsit</p>
+                            <p style="margin: 0;">O`sadi</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div style="display: flex; align-items: center;">
                             <div class="circle-button2"><b><i class="bi bi-dash"></i></b></div>
-                            <p style="margin: 0;">Hududiy defitsit</p>
+                            <p style="margin: 0;">O`smaydi</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
-                        <div style="display: flex; align-items: center;">
-                            <div class="circle-button3"><i class="bi bi-chevron-down"></i></div>
-                            <p style="margin: 0;">Defitsit yo`q</p>
-                        </div>
-                    </div>
+{{--                    <div class="col-md-3">--}}
+{{--                        <div style="display: flex; align-items: center;">--}}
+{{--                            <div class="circle-button3"><i class="bi bi-chevron-down"></i></div>--}}
+{{--                            <p style="margin: 0;">Defitsit yo`q</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
                 <div class="row mt-4">
                     <div class="mt-0 mb-2">Qisqartmalar</div>
@@ -118,7 +118,7 @@
                 <table class="table pl-3">
                     <thead>
                     <tr>
-                        <th scope="col">Kasb <button style="background-color: #fff;border: 1px solid;border-radius: 7px;" class="ml-5 p-1">Kelajakdagi talab</button></th>
+                        <th scope="col">Kasblar  <button style="background-color: #fff;border: 1px solid;border-radius: 7px;" class="ml-4 p-1">Kelajakdagi talab</button></th>
                         <th scope="col"></th>
                         <th scope="col"></th>
                         <th scope="col">O`R</th>
