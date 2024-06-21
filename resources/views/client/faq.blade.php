@@ -13,7 +13,7 @@
             <div class="row w-100">
                 <div class="col-md-6">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="OKED bo'yicha yoki kasb bo'yicha qidirish" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control" placeholder="Kasb bo'yicha qidirish" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
                             <span class="input-group-text" id="basic-addon2"><i class="bi bi-search"></i></span>
                         </div>
@@ -45,12 +45,12 @@
                             <p style="margin: 0;">Defitsit</p>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                        <div style="display: flex; align-items: center;">
-                            <button style="border: 1px solid #f0a269; color: #252525; background-color: #ffe7d7; border-radius: 15px; margin-right: 10px;" class="btn defitsit"><b>R</b></button>
-                            <p style="margin: 0;">Hududiy defitsit</p>
-                        </div>
-                    </div>
+{{--                    <div class="col-md-2">--}}
+{{--                        <div style="display: flex; align-items: center;">--}}
+{{--                            <button style="border: 1px solid #f0a269; color: #252525; background-color: #ffe7d7; border-radius: 15px; margin-right: 10px;" class="btn defitsit"><b>R</b></button>--}}
+{{--                            <p style="margin: 0;">Hududiy defitsit</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="col-md-2">
                         <div style="display: flex; align-items: center;">
                             <button style="border: 1px solid #4fc930; color: #252525; background-color: #e1fcdb; border-radius: 15px; margin-right: 10px;" class="btn"><b>NS</b></button>
@@ -115,7 +115,6 @@
                 </div>
             </div>
             <div class="report-data mb-2 mt-3">
-                <p class="pt-3 ">OKED</p>
                 <table class="table pl-3">
                     <thead>
                     <tr>
@@ -136,7 +135,7 @@
                     <tbody>
                     <tr>
                         <th scope="row">
-                            <p style="color: #a7a7a7;font-size: 14px;" class="mb-0">422111</p>
+
                             Buxgalter
                         </th>
                         <td>

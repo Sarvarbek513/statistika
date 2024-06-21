@@ -28,26 +28,25 @@ class NewsController extends Controller
         return view('admin.news.create');
     }
 
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         $request->validate([
             'name' => 'required|max:255',
             'title' => 'required|max:255',
             'description' => 'required',
-            'image' => 'required|image|max:2048', // 2MB Max
-            'date' => 'required|max:255',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048', // 2MB Max
+            'vaqt' => 'required|max:255',
         ]);
 
-        $imagePath = $request->file('image')->store('news_images', 'public');
+        $input = $request->all();
 
-        News::create([
-            'name' => $request->name,
-            'title' => $request->title,
-            'description' => $request->description,
-            'image' => $imagePath,
-            'date' => $request->date,
-        ]);
-
+        if ($image = $request->file('image')) {
+            $destinationPath = 'images/';
+            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
+            $image->move($destinationPath, $profileImage);
+            $input['image'] = "$profileImage";
+        }
+        News::create($input);
         return redirect()->route('news.index')->with('success', 'News article created successfully.');
     }
 }

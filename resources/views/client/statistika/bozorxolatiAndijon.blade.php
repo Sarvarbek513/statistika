@@ -1,7 +1,7 @@
 @extends('layouts.bozorxolatiapp')
 @section('content')
 <div class="col-md-4 all-div2 mb-3 p-4 h-100">
-            <h4>Labour Market</h4>
+            <h4>Mehnat bozori</h4>
             <form id="carForm" action="">
                     <select class="form-select" aria-label="Default select example" id="carSelect" name="carSelect" onchange="submitForm()">
                       <option selected>Andijon viloyati</option>
@@ -26,50 +26,50 @@
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('population')">
                     <h6 style="text-align: left;">Mehnatga layoqatli yoshdagi mehnatga layoqatli aholi soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>22.33M</h4></div>
+                        <div class="col-md-2"><h4>1,77M</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
-                            <b>+1.9%  (1-yr)</b>
+                            <b>+1.9%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('employment')">
                     <h6 style="text-align: left;">Iqtisodiyotda bandlar soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>18.45M</h4></div>
+                        <div class="col-md-2"><h4>129,68ming</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
-                            <b>+2.6%  (1-yr)</b>
+                            <b>+2.6%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('unemployment')">
                     <h6 style="text-align: left;">Ishsizlik darajasi</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>12.45M</h4></div>
+                        <div class="col-md-2"><h4>9,1%</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button5"><i class="bi bi-arrow-down-circle"></i></div>
-                            <b>-8.1%  (1-yr)</b>
+                            <b>-8.1pp  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('faollik')">
                     <h6 style="text-align: left;">Aholining iqtisodiy faollik darajasi</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>15.45M</h4></div>
+                        <div class="col-md-2"><h4>76,5%</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
-                            <b>+1.1%  (1-yr)</b>
+                            <b>+1.1pp  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('nofaollik')">
                     <h6 style="text-align: left;">Iqtisodiy nofaol aholi soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>10.45M</h4></div>
+                        <div class="col-md-2"><h4>342,2ming</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button5"><i class="bi bi-arrow-down-circle"></i></div>
-                            <b>-9.5%  (1-yr)</b>
+                            <b>-9.5%  (1-y)</b>
                         </div>
                     </div>
                 </button>
@@ -104,7 +104,7 @@
                 type: 'line'
             },
             title: {
-                text: 'Umumiy o`sish'
+                text: 'Mehnatga layoqatli yoshdagi mehnatga layoqatli aholi soni(O`zbekiston)'
             },
             xAxis: {
                 categories: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
@@ -150,11 +150,11 @@
                         data: [1112,1144.7,1296.8,1176.3,1210.7,1245,1271.7,1297.7,1319.2,1266.8,1284.5,1225.9,1264.3,1296.8]
                     }]
                 });
-                document.getElementById('first').innerHTML = 'Male';
-                document.getElementById('second').innerHTML = 'Famale';
-                document.getElementById('countMale').innerHTML = '812.7';
+                document.getElementById('first').innerHTML = 'Ayol';
+                document.getElementById('second').innerHTML = 'Erkak';
+                document.getElementById('countMale').innerHTML = '812.7ming';
                 document.getElementById('prasentMale').innerHTML = '';
-                document.getElementById('countFamale').innerHTML = '484.1';
+                document.getElementById('countFamale').innerHTML = '484.1ming';
                 document.getElementById('prasentFamale').innerHTML = '';
             }else if (type === 'unemployment') {
                 chart.update({
@@ -164,11 +164,11 @@
                         data: [5.8,5.3,5.3,5.4,5.6,5.6,5.6,6,9.6,9.2,10.9,9.9,9.1]
                     }]
                 });
-                document.getElementById('first').innerHTML = 'Male';
-                document.getElementById('second').innerHTML = 'Famale';
-                document.getElementById('countMale').innerHTML = '4.1';
+                document.getElementById('first').innerHTML = 'Ayol';
+                document.getElementById('second').innerHTML = 'Erkak';
+                document.getElementById('countMale').innerHTML = '4.1%';
                 document.getElementById('prasentMale').innerHTML = '';
-                document.getElementById('countFamale').innerHTML = '16.5';
+                document.getElementById('countFamale').innerHTML = '16.5%';
                 document.getElementById('prasentFamale').innerHTML = '';
             }else if (type === 'faollik') {
                 chart.update({

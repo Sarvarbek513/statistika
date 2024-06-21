@@ -66,7 +66,7 @@
                             <h6 class="text-muted mb-0 news-title">Yangiliklar</h6>
                             <!-- <span class="text-muted">8-mart, 2024</span> -->
                         </div>
-                        <h5 class="card-text"><a href="maqola1.html">O'zbekistonda norasmiy bandlikning o'zgarish tendensiyalari</a></h5>
+                        <h5 class="card-text"><a href="maqola1.html" style="text-decoration: none;color: #6c757d;">O'zbekistonda norasmiy bandlikning o'zgarish tendensiyalari</a></h5>
                         <p class="text-muted">Rasmiy statistik ma’lumotlarga ko‘ra, 2024-yilning 1-yanvar holatiga ko‘ra, O‘zbekistonda jami band aholining 39,0 foizi...</p>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <h6 class="text-muted mb-0 news-title">Yangiliklar</h6>
                             <!-- <span class="text-muted">8-mart, 2024</span> -->
                         </div>
-                        <h5 class="card-text"><a href="maqola2.html">O'zbekistonda nogironligi bo'lgan shaxslarning mehnat bozorida inklyuziv...</a></h5>
+                        <h5 class="card-text"><a href="maqola2.html" style="text-decoration: none;color: #6c757d;">O'zbekistonda nogironligi bo'lgan shaxslarning mehnat bozorida inklyuziv...</a></h5>
                         <p class="text-muted">Bugungi kunda O‘zbekistonda mehnatga layoqatli yoshdagi nogironligi bo‘lgan 755 ming nafaridan ortiq kishi istiqomat...</p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                             <h6 class="text-muted mb-0 news-title">Yangiliklar</h6>
                             <!-- <span class="text-muted">8-mart, 2024</span> -->
                         </div>
-                        <h5 class="card-text"><a href="maqola3.html">O'zbekiston maktablaridagi infratuzilma va ta'lim sifatiga ta'sir etuvchi omillar</a></h5>
+                        <h5 class="card-text"><a href="maqola3.html" style="text-decoration: none;color: #6c757d;">O'zbekiston maktablaridagi infratuzilma va ta'lim sifatiga ta'sir etuvchi omillar</a></h5>
                         <p class="text-muted">Ta’lim sifatini ifodalovchi ko‘rsatkich deb abituriyentlarning 2022/2023 o‘quv yili uchun OTMga kirish imtihonlarida to‘plagan ballari...</p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                             <h6 class="text-muted mb-0 news-title">Yangiliklar</h6>
                             <span class="text-muted">8-mart, 2024</span>
                         </div>
-                        <h5 class="card-text"><a href="maqola4.html">O'zbekistonda ayollar orasidagi ishsizlik sabablari</a></h5>
+                        <h5 class="card-text"><a href="maqola4.html" style="text-decoration: none;color: #6c757d;">O'zbekistonda ayollar orasidagi ishsizlik sabablari</a></h5>
                         <p class="text-muted">2024-yilning boshida O‘zbekiston aholisi 36799 ming kishiga yetdi va 2023-yilning mos davridagiga nisbatan 2,2 foizga yoki 775 ming kishiga oshdi...</p>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                             <h6 class="text-muted mb-0 news-title">Yangiliklar</h6>
                             <span class="text-muted">8-mart, 2024</span>
                         </div>
-                        <h5 class="card-text"><a href="">Qaysi sohalarda ko'proq maosh taklif qilinmoqda?</a></h5>
+                        <h5 class="card-text"><a href="" style="text-decoration: none;color: #6c757d;">Qaysi sohalarda ko'proq maosh taklif qilinmoqda?</a></h5>
                         <p class="text-muted">Kasb tanlashda inson bir necha omillardan kelib chiqib qaror qabul qiladi.Ushbu omillar insonning o’z qiziqsihlari va ehtiyojlari...</p>
                     </div>
                 </div>

@@ -158,7 +158,7 @@ class StatisticController extends Controller
 
     public function getJsonData()
         {
-            $response = Http::get('https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2790.json');
+            $response = Http::get('https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1315.json');
         
             if ($response->successful()) {
                 $data = $response->json();

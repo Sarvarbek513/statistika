@@ -17,7 +17,8 @@ return new class extends Migration
             $table->string('image');
             $table->string('title');
             $table->text('description');
-            $table->text('date');
+            $table->string('vaqt')->nullable();
+            $table->timestamps();
         });
     }
 

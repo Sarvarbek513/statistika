@@ -1,7 +1,7 @@
 @extends('layouts.bozorxolatiapp')
 @section('content')
 <div class="col-md-4 all-div2 mb-3 p-4 h-100">
-            <h4>Labour Market</h4>
+            <h4>Iqtisodiyot tarmoqlari</h4>
             <form id="carForm" action="">
                     <select class="form-select" aria-label="Default select example" id="carSelect" name="carSelect" onchange="submitForm()">
                       <option selected>Surxandaryo viloyati</option>
@@ -31,7 +31,7 @@
                         </div>
                     </div>
         </div>
-        <div class="col-md-5 all-div2 ml-3 p-3">
+        <div class="col-md-5 all-div5 ml-3 p-3">
                     <div id="charts"></div>
                 </div>
         <script>

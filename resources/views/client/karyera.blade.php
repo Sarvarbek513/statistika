@@ -17,7 +17,7 @@
     <!-- Newsletter End -->
 
     <!-- Main Start -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid py-5">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-6">
@@ -101,7 +101,7 @@
             </div>
         </div>
     </div>
-
+<!-- 
     <div class="container">
         <div class="resurs mt-5 mb-5">
             <h4>Karyera va malaka oshirish bo`yicha manbalar</h4>
@@ -143,6 +143,95 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img style="border-radius: 15px;" class="img-fluid" src="{{asset('assets/img/7.png')}}">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-4">Ish topish</h1>
+                    <p class="mb-4">Turli kasblarga tayyorgarlik ko'rish uchun mo'ljallangan batafsil kurslarni o'rganing. Qiziqishlaringizga mos keladigan kursni toping va bugundan boshlab ishga tayyorgarligingizni oshiring!</p>
+                    <div class="d-flex align-items-center mt-4">
+                        <a  class="btn btn-primary rounded-pill px-4 me-3" href="">Kurslarga o`tish <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+                             <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="mb-4">Karyera va bandlikka ko`maklashish</h1>
+                    <p class="mb-4">Qiziqarli ish imkoniyatlari va professional o'sish olamini kashf eting. Turli xil ish e'lonlarini ko'rib chiqing, qimmatli kasb bo'yicha maslahatlar oling va kasb yo'lingizni boshqarish uchun resurslardan foydalaning.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                                        <img style="height: 415px;" src="{{ asset('assets/img/oliy.jpg') }}" alt="">
+                                        <a class="case-overlay text-decoration-none" href="https://www.ulife.uz/allUniversity">
+                                            <h5 class="lh-base text-white mb-3">Malakaga ega bo‘lish uchun Oliy o‘quv yurtlari ro‘yxati
+                                            </h5>
+                                            <p class="erat"> O‘z kelajagingizni rejalashtirishda sizga yordam beradigan eng yaxshi o‘quv yurtlarini tanlang.</p>
+                                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                                        <img style="height: 415px;" src="{{ asset('assets/img/oliy.jpg') }}" alt="">
+                                        <a class="case-overlay text-decoration-none" href="">
+                                            <h5 class="lh-base text-white mb-3">Bandlikka ko`maklashish
+                                            </h5>
+                                            <p class="erat"> Ish topish, kasbiy rivojlanish hamda bandlikka oid xizmatlardan foydalaning. Biz bilan birgalikda muvaffaqiyatga erishing!</p>
+                                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                                        <img style="height: 415px;" src="{{ asset('assets/img/kurs.jpg') }}" alt="">
+                                        <a class="case-overlay text-decoration-none" href="https://rank.uz/ru/ec">
+                                            
+                                            <h5 class="lh-base text-white mb-3">Malaka oshirish uchun kurslar ro`yxati
+                                            </h5>
+                                            <p class="erat">Turli sohalar bo‘yicha malaka oshirish imkoniyatlarini o‘rganing. O‘z bilimingizni yangilash va rivojlantirish uchun mos kurslarni tanlang.</p>
+                                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="case-item position-relative overflow-hidden rounded mb-2">
+                                        <img style="height: 415px;" src="{{ asset('assets/img/ishtopish.jpg') }}" alt="">
+                                        <a class="case-overlay text-decoration-none" href="">
+                                            
+                                            <h5 class="lh-base text-white mb-3">Ish topish
+                                            </h5>
+                                            <p class="erat">Ish qidirish jarayonini oson va samarali qiling. Muvaffaqiyatga erishish yo‘lida birinchi qadamni qo‘ying!</p>
+                                            <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+  
     <div class="container">
         <div class="row mt-5 mb-5">
             <div class="row">

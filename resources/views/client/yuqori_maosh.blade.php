@@ -28,24 +28,45 @@
                         </a>
                     </div>
                     <ul class="text-ul">
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
-                        <li class="text-li">Arxitektura va muhandislik</li>
-                        <li class="text-li">San'at va dizayn</li>
-                        <li class="text-li">O'rnatish texnik xizmat ko'rsatish va taimirlash</li>
+                        <li class="text-li"><a style="text-decoration: none;color: #555555;" href="{{url('/kasbguruhlari')}}">Qonun chiqaruvchilar, yuqori mansabdor shaxslar va boshqaruvchilar</a></li>
+                        <li class="text-li">Korporativ boshqaruvchilar</li>
+                        <li class="text-li">Ishlab chiqarish va ixtisoslashtirilgan xizmatlar sohasidagi boʻlinmalar rahbarlari</li>
+                        <li class="text-li">Mehmonxona biznesining rahbarlari, doʻkonlar va tegishli faoliyat sohalari rahbarlari (boshqaruvchilari)</li>
+                        <li class="text-li">Fan va texnika sohasida professional-mutaxassislar</li>
+                        <li class="text-li">Sogʻliqni saqlash sohasida professional-mutaxassislar</li>
+                        <li class="text-li">Ta'lim sohasidagi professional-mutaxassislar</li>
+                        <li class="text-li">Ma'muriyat va biznes sohasidagi professional-mutaxassislar</li>
+                        <li class="text-li">Axborot kommunikatsiya texnologiyalari boʻyicha professional-mutaxassislar</li>
+                        <li class="text-li">Madaniyat, gumanitar va huquq sohasidagi professional-mutaxassislar</li>
+                        <li class="text-li">Fan va texnika sohasidagi mutaxassislar (texniklar)</li>
+                        <li class="text-li">Sogʻliqni saqlashda oʻrta ma'lumotli tibbiyot xodimlari</li>
+                        <li class="text-li">Ma'muriy va iqtisodiyot faoliyat boʻyicha mutaxassislar</li>
+                        <li class="text-li">Huquqshunoslik, ijtimoiy ishlar, madaniyat va oʻxshash faoliyat sohasidagi yordamchi xodimlar</li>
+                        <li class="text-li">AKT sohasidagi mutaxassis-texniklar</li>
+                        <li class="text-li">Ofis texnikalariga xizmat koʻrsatish va umumiy profil xizmatchilari</li>
+                        <li class="text-li">Aholiga xizmat koʻrsatish sohasi xizmatchilari</li>
+                        <li class="text-li">Material qiymatliliklar hisobi va raqamli axborotlarga ishlov berish sohasidagi xizmatchilar</li>
+                        <li class="text-li">Boshqa ofis xizmatchilari</li>
+                        <li class="text-li">Individual xizmatlar sohasidagi xodimlar</li>
+                        <li class="text-li">Sotuvchilar</li>
+                        <li class="text-li">Yakka tartibda xizmat koʻrsatuvchi xodimlar</li>
+                        <li class="text-li">Xususiy mulk va fuqarolarni muhofaza qilish xizmati xodimlari</li>
+                        <li class="text-li">Qishloq xoʻjaligi mahsulotlarini ishlab chiqaruvchilari</li>
+                        <li class="text-li">Ovchilar va oʻrmon hamda baliq mahsulotlaridan tovar ishlab chiqaruvchilar</li>
+                        <li class="text-li">Qurilish sohasi va shunga oʻxshash soha ishchilari (elektriklardan tashqari)</li>
+                        <li class="text-li">Metallga ishlov berish sanoati, mashinasozlik va shunga oʻxshash sohalar ishchilari</li>
+                        <li class="text-li">Poligrafiya ishlab chiqarish va qoʻl mehnatining yuqori malakali ishchilari</li>
+                        <li class="text-li">Elektrotexnika va elektronika sohasidagi ishchilar</li>
+                        <li class="text-li">Oziq-ovqat, yogʻochni qayta ishlash, toʻqimachilik va tikuvchilik sanoati va turdosh kasblar ishchilari</li>
+                        <li class="text-li">Sanoat uskunalari va statsionar qurilmalari operatorlari</li>
+                        <li class="text-li">Yigʻuvchilar</li>
+                        <li class="text-li">Koʻchma qurilmalar operatorlari va haydovchilari</li>
+                        <li class="text-li">Uy xizmatchilari va farroshlar</li>
+                        <li class="text-li">Qishloq va oʻrmon xoʻjaligi, baliqchilik va baliqshunoslikdagi malakasiz ishchilar</li>
+                        <li class="text-li">Togʻ-kon sanoati, qurilish, qayta ishlash sanoati va transport sohasidagi malakasiz ishchilar</li>
+                        <li class="text-li">Taom tayyorlashda yordamchilar</li>
+                        <li class="text-li">Koʻcha sotuvchilari va boshqa koʻcha xizmatlarini koʻrsatadigan malakasiz xodimlar</li>
+                        <li class="text-li">Chiqindilarni yigʻuvchi va boshqa malakasiz xodimlar</li>
                         <!-- More items here -->
                     </ul>
                 </div>

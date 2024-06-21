@@ -36,6 +36,18 @@ Route::get('/about', function () {
 Route::get('/pragnoz', function () {
     return view('client.prognoz');
 });
+Route::get('/kasbguruhlari', function () {
+    return view('client.kasbguruhlari');
+});
+Route::get('/kelajakish', function () {
+    return view('client.kelajakish');
+});
+Route::get('/yuqorimaosh', function () {
+    return view('client.progress.engyuqorimaosh');
+});
+Route::get('/konikmalar', function () {
+    return view('client.progress.savollar');
+});
 
 Route::prefix('statistic')->group(function (){
     Route::get('/index', function () {
@@ -132,6 +144,8 @@ Route::prefix('tarmoq')->group(function (){
         return view('client.iqtisodtarmoqi.bozorxolatiToshkentsh');
     });
 });
+// getJsonDataOzbekiston
+
 Route::get('/fetch-data', [StatisticController::class, 'getJsonData']);
 Route::get('/fetch-data-andijan', [StatisticController::class, 'getJsonDataAndijan']);
 Route::get('/fetch-data-buxoro', [StatisticController::class, 'getJsonDataBuxoro']);

@@ -1,7 +1,7 @@
 @extends('layouts.bozorxolatiapp')
 @section('content')
 <div class="col-md-4 all-div2 mb-3 p-4 h-100">
-            <h4>Labour Market</h4>
+            <h4>Mehnat bozori</h4>
             <form id="carForm" action="">
                     <select class="form-select" aria-label="Default select example" id="carSelect" name="carSelect" onchange="submitForm()">
                       <option selected>Farg`ona viloyati</option>
@@ -22,54 +22,54 @@
                     </select>
                     <noscript><input type="submit" value="Submit"></noscript>
                 </form>
-                <div class="container mt-5">
+            <div class="container mt-5">
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('population')">
                     <h6 style="text-align: left;">Mehnatga layoqatli yoshdagi mehnatga layoqatli aholi soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>22.33M</h4></div>
+                        <div class="col-md-2"><h4>1,81M</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
-                            <b>+0.8%  (1-yr)</b>
+                            <b>+0.6%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('employment')">
                     <h6 style="text-align: left;">Iqtisodiyotda bandlar soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>18.45M</h4></div>
+                        <div class="col-md-2"><h4>1,34M</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
-                            <b>+1.2%  (1-yr)</b>
+                            <b>+1.9%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('unemployment')">
                     <h6 style="text-align: left;">Ishsizlik darajasi</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>12.45M</h4></div>
+                        <div class="col-md-2"><h4>9,2%</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button5"><i class="bi bi-arrow-down-circle"></i></div>
-                            <b>-7.3%  (1-yr)</b>
+                            <b>-8.0%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('faollik')">
                     <h6 style="text-align: left;">Aholining iqtisodiy faollik darajasi</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>15.45M</h4></div>
+                        <div class="col-md-2"><h4>73,9%</h4></div>
                         <div class="col-md-10">
-                            <div class="circle-button5"><i class="bi bi-arrow-down-circle"></i></div>
-                            <b>-0.5%  (1-yr)</b>
+                            <div class="circle-button4"><i class="bi bi-arrow-up-circle"></i></div>
+                            <b>+0.4%  (1-y)</b>
                         </div>
                     </div>
                 </button>
                 <button class="btn bg-light w-100 h-100 mt-3" onclick="updateChart('nofaollik')">
                     <h6 style="text-align: left;">Iqtisodiy nofaol aholi soni</h6>
                     <div class="row">
-                        <div class="col-md-2"><h4>10.45M</h4></div>
+                        <div class="col-md-2"><h4>435,1ming</h4></div>
                         <div class="col-md-10">
                             <div class="circle-button5"><i class="bi bi-arrow-down-circle"></i></div>
-                            <b>-0.2%  (1-yr)</b>
+                            <b>-1.9%  (1-y)</b>
                         </div>
                     </div>
                 </button>
@@ -104,7 +104,7 @@
                 type: 'line'
             },
             title: {
-                text: 'Umumiy o`sish'
+                text: 'Mehnatga layoqatli yoshdagi mehnatga layoqatli aholi soni(O`zbekiston)'
             },
             xAxis: {
                 categories: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
@@ -131,8 +131,8 @@
                 chart.update({
                     title: { text: 'Mehnatga layoqatli yoshdagi mehnatga layoqatli aholi soni' },
                     series: [{
-                        name: 'Aholi o`sish',
-                        data: [16.534, 17.170, 17.452, 17.699, 17.938, 18.168, 18.372, 18.549, 18.712, 18.858, 19.076, 19.238, 19.939]
+                        name: 'Farg`ona viloyati',
+                        data: [1815.5, 1887.6, 1924.5, 1940, 1961.9, 1988.1, 2007.3, 2022, 2034.8, 2046.1, 2064, 2077.2, 2089.1]
                     }]
                 });
                 document.getElementById('first').innerHTML = '';
@@ -146,36 +146,36 @@
                 chart.update({
                     title: { text: 'Iqtisodiyotda bandlar soni' },
                     series: [{
-                        name: 'O`zbekiston',
-                        data: [14.934, 15.070, 15.452, 15.799, 16.138, 16.368, 16.572, 16.749, 16.912, 17.058, 17.276, 17.438, 17.939]
+                        name: 'Farg`ona viloyati',
+                        data: [1340.4, 1367.6, 1511.7, 1398.8, 1431.1, 1462.8, 1485.3, 1508.3, 1525.7, 1451, 1492.6, 1448.6, 1483.3, 1511.7]
                     }]
                 });
-                document.getElementById('first').innerHTML = 'Male';
-                document.getElementById('second').innerHTML = 'Famale';
-                document.getElementById('countMale').innerHTML = '8058.6';
-                document.getElementById('prasentMale').innerHTML = '58.80%';
-                document.getElementById('countFamale').innerHTML = '5647.6';
-                document.getElementById('prasentFamale').innerHTML = '41.20%';
+                document.getElementById('first').innerHTML = 'Ayol';
+                document.getElementById('second').innerHTML = 'Erkak';
+                document.getElementById('countMale').innerHTML = '861.1ming';
+                document.getElementById('prasentMale').innerHTML = '';
+                document.getElementById('countFamale').innerHTML = '650.6ming';
+                document.getElementById('prasentFamale').innerHTML = '';
             }else if (type === 'unemployment') {
                 chart.update({
                     title: { text: 'Ishsizlik darajasi' },
                     series: [{
-                        name: 'O`zbekiston',
-                        data: [5.4,5,4.9,4.9,5.1,5.2,5.2,5.8,9.3,9,10.5,9.6,8.9]
+                        name: 'Farg`ona viloyati',
+                        data: [5.7, 5, 5, 4.8, 5.4, 5.4, 5.5, 6.4, 9.7, 9.3, 10.9, 10, 9.2]
                     }]
                 });
-                document.getElementById('first').innerHTML = 'Male';
-                document.getElementById('second').innerHTML = 'Famale';
-                document.getElementById('countMale').innerHTML = '13.4';
+                document.getElementById('first').innerHTML = 'Ayol';
+                document.getElementById('second').innerHTML = 'Erkak';
+                document.getElementById('countMale').innerHTML = '13.6%';
                 document.getElementById('prasentMale').innerHTML = '';
-                document.getElementById('countFamale').innerHTML = '5.4';
+                document.getElementById('countFamale').innerHTML = '5.7%';
                 document.getElementById('prasentFamale').innerHTML = '';
             }else if (type === 'faollik') {
                 chart.update({
                     title: { text: 'Aholining iqtisodiy faollik darajasi' },
                     series: [{
-                        name: 'O`zbekiston',
-                        data: [70.7,69.7,70,70.5,71.3,71.9,72.5,73.5,74.3,75,73.8,74.1,73.7]
+                        name: 'Farg`ona viloyati',
+                        data: [73.6, 71.5, 71.5, 71.8, 72.7, 73.1, 73.6, 74.7, 73.1, 74.5, 73, 73.6, 73.9]
                     }]
                 });
                 document.getElementById('first').innerHTML = '';
@@ -188,8 +188,8 @@
                 chart.update({
                     title: { text: 'Iqtisodiy nofaol aholi soni' },
                     series: [{
-                        name: 'O`zbekiston',
-                        data: [4439.4,4744.9,4478.6,4714.2,4651.1,4542.6,4508.4,4466.5,4309,4187.9,4072.6,4360.8,4354.2]
+                        name: 'Farg`ona viloyati',
+                        data: [403, 456.1, 432.2, 459.4, 443.5, 423.8, 425.6, 419.8, 400.6, 436.5, 407.3, 443.6, 435.1]
                     }]
                 });
                 document.getElementById('first').innerHTML = 'Qishloq';

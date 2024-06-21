@@ -30,11 +30,17 @@
                 @forelse ($news as $new)
                     <tr>
                         <td>{{$new->id}}</td>
-                        <td><img src="/images/produts/{{ $new->image }}" width="100px"></td>
+                        <td>
+                            @if($new->image)
+                                <img src="/images/{{ $new->image }}" width="100px">
+                            @else
+                                No image available
+                            @endif
+                        </td>
                         <td>{{ $new->name }}</td>
                         <td>{{ $new->title }}</td>
                         <td>{{ $new->description }}</td>
-                        <td>{{ $new->date }}</td>
+                        <td>{{ $new->vaqt }}</td>
                         <td>
                             <form action="" method="POST">
 

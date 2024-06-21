@@ -8,11 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class News extends Model
 {
     use HasFactory;
+    public $timestamps = false;
     protected $fillable  = [
         'name',
         'image',
         'title',
         'description',
-        'date'
+        'vaqt'
     ];
 }

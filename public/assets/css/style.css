@@ -463,6 +463,12 @@ h6,
 
 
 /*** Service ***/
+.service-item3 {
+    position: relative;
+    padding: 45px 30px;
+    transition: .5s;
+}
+
 .service-item {
     position: relative;
     padding: 45px 30px;

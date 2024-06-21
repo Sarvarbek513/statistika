@@ -62,11 +62,11 @@
                     <label for="inputName" class="form-label"><strong>Date:</strong></label>
                     <input
                         type="text"
-                        name="date"
-                        class="form-control @error('date') is-invalid @enderror"
+                        name="vaqt"
+                        class="form-control @error('vaqt') is-invalid @enderror"
                         id="inputName"
                         placeholder="Date">
-                    @error('date')
+                    @error('vaqt')
                     <div class="form-text text-danger">{{ $message }}</div>
                     @enderror
                 </div>
